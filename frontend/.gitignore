@@ -1,0 +1,11 @@
+# Angular build artifacts
+/dist
+/.angular
+/.cache
+
+# Environment files
+/src/environments/*.ts
+
+# Misc
+.DS_Store
+
