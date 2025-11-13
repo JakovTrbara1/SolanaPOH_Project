@@ -66,3 +66,14 @@ The backend accepts the following variables:
 ## Branching Strategy
 
 All exploratory work happens on the `testing` branch. Stable features are merged into `main` once validated.
+
+If you ever find that only `main` exists locally (for example after cloning fresh or cleaning up old branches), recreate the
+long-lived `testing` branch with:
+
+```bash
+git checkout main
+git checkout -b testing
+git push -u origin testing  # optional, publish the branch if your fork needs it remotely
+```
+
+This keeps your workflow aligned with the project plan without touching the production-ready `main` history.
