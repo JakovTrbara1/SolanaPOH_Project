@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-shell {
+  flex: 1;
+  background: linear-gradient(180deg, #0b1533 0%, #15224f 100%);
+  color: #fff;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.9);
+}
